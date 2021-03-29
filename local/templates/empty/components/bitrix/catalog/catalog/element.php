@@ -697,3 +697,5 @@ $isSidebar = ($arParams['SIDEBAR_DETAIL_SHOW'] == 'Y' && !empty($arParams['SIDEB
 		</div>
 	<? endif ?>
 </div>
+
+<a href="#">prev</a> <a href="#">next</a>

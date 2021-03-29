@@ -33,3 +33,15 @@ $this->setFrameMode(true);
         </div>
     <?endif;?>
 </div>
+
+<?if($arResult["NEWS_RING"]["NEXT"] || $arResult["NEWS_RING"]["PREV"]):?>
+    <?if($arResult["NEWS_RING"]["PREV"]):?>
+    <a href="<?=$arResult["NEWS_RING"]["PREV"]["DETAIL_PAGE_URL"]?>">prev</a>
+        <?$arResult["NEWS_RING"]["PREV"]["NAME"]?>
+    <?endif;?>
+
+    <?if($arResult["NEWS_RING"]["NEXT"]):?>
+    <a href="<?=$arResult["NEWS_RING"]["NEXT"]["DETAIL_PAGE_URL"]?>">next</a>
+        <?$arResult["NEWS_RING"]["NEXT"]["NAME"]?>
+    <?endif;?>
+<?endif;?>

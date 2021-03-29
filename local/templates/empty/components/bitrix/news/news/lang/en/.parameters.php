@@ -1,11 +1,13 @@
 <?
-$MESS["T_IBLOCK_DESC_NEWS_DATE"] = "Display element date";
-$MESS["T_IBLOCK_DESC_NEWS_PICTURE"] = "Display element preview picture";
-$MESS["T_IBLOCK_DESC_NEWS_TEXT"] = "Display element preview text";
-$MESS["T_IBLOCK_DESC_NEWS_USE_SHARE"] = "Show Social Network Bookmarks Bar";
-$MESS["T_IBLOCK_DESC_NEWS_SHARE_HIDE"] = "Hide Social Network Bookmarks Bar By Default";
-$MESS["T_IBLOCK_DESC_NEWS_SHARE_TEMPLATE"] = "Social Network Bookmarks Template";
-$MESS["T_IBLOCK_DESC_NEWS_SHARE_SYSTEM"] = "Use Social Networks And Bookmarks";
-$MESS["T_IBLOCK_DESC_NEWS_SHARE_SHORTEN_URL_LOGIN"] = "bit.ly Login";
-$MESS["T_IBLOCK_DESC_NEWS_SHARE_SHORTEN_URL_KEY"] = "bit.ly Key";
+$MESS["T_IBLOCK_DESC_NEWS_DATE"] = "Выводить дату элемента";
+$MESS["T_IBLOCK_DESC_NEWS_PICTURE"] = "Выводить изображение для анонса";
+$MESS["T_IBLOCK_DESC_NEWS_TEXT"] = "Выводить текст анонса";
+$MESS["T_IBLOCK_DESC_NEWS_USE_SHARE"] = "Отображать панель соц. закладок";
+$MESS["T_IBLOCK_DESC_NEWS_SHARE_HIDE"] = "Не раскрывать панель соц. закладок по умолчанию";
+$MESS["T_IBLOCK_DESC_NEWS_SHARE_TEMPLATE"] = "Шаблон компонента панели соц. закладок";
+$MESS["T_IBLOCK_DESC_NEWS_SHARE_SYSTEM"] = "Используемые соц. закладки и сети";
+$MESS["T_IBLOCK_DESC_NEWS_SHARE_SHORTEN_URL_LOGIN"] = "Логин для bit.ly";
+$MESS["T_IBLOCK_DESC_NEWS_SHARE_SHORTEN_URL_KEY"] = "Ключ для для bit.ly";
+$MESS ['NEWS_WIDTH'] = "Выста изображения";
+$MESS ['NEWS_HEIGHT'] = "Ширина изображения";
 ?>

@@ -89,6 +89,8 @@ $APPLICATION->SetTitle("Новости");
 		"COMPONENT_TEMPLATE" => "news",
 		"FILE_404" => "",
 		"SEF_FOLDER" => "/news/",
+		"NEWS_WIDTH" => "288",
+		"NEWS_HEIGHT" => "288",
 		"VARIABLE_ALIASES" => array(
 			"SECTION_ID" => "SECTION_ID",
 			"ELEMENT_ID" => "ELEMENT_ID",

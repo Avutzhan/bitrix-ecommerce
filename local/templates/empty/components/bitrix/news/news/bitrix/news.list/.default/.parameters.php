@@ -5,7 +5,7 @@ $arTemplateParameters = array(
 	"DISPLAY_DATE" => Array(
 		"NAME" => GetMessage("T_IBLOCK_DESC_NEWS_DATE"),
 		"TYPE" => "CHECKBOX",
-		"DEFAULT" => "Y",
+		"DEFAULT" => "288",
 	),
 	"DISPLAY_NAME" => Array(
 		"NAME" => GetMessage("T_IBLOCK_DESC_NEWS_NAME"),
@@ -21,6 +21,18 @@ $arTemplateParameters = array(
 		"NAME" => GetMessage("T_IBLOCK_DESC_NEWS_TEXT"),
 		"TYPE" => "CHECKBOX",
 		"DEFAULT" => "Y",
+	),
+	"NEWS_WIDTH" => Array(
+		"PARENT" => 'VISUAL',
+		"NAME" => GetMessage("NEWS_WIDTH"),
+		"TYPE" => "STRING",
+		"DEFAULT" => 288,
+	),
+	"NEWS_HEIGHT" => Array(
+		"PARENT" => 'VISUAL',
+		"NAME" => GetMessage("NEWS_HEIGHT"),
+		"TYPE" => "STRING",
+		"DEFAULT" => 288,
 	),
 );
 ?>
