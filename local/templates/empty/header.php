@@ -194,20 +194,17 @@ $bIsMainPage = $APPLICATION->GetCurPage(false)  == SITE_DIR;
                 false
             );?>
 
-            <div class="activities-description-wrap">
-                <div class="activities-description">
-                    <div class="container">
-                        <div class="activities-inner">
-                            <h3>Последние посещенные вами страницы</h3>
-                            <ul>
-                                <li><a href="#">Мы стали использовать новую ткань</a></li>
-                                <li><a href="#">Главная страница</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?$APPLICATION->IncludeComponent(
+                "intervolga:pages.viewed",
+                ".default",
+                array(
+                    "COMPONENT_TEMPLATE" => ".default",
+                    "IBLOCK_TYPE" => "pages_viewed",
+                    "IBLOCKS" => array(
+                    )
+                ),
+                false
+            );?>
 
             <div class="container mbl">
                 <div class="row">
